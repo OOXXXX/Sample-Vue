@@ -2757,9 +2757,9 @@ decamelize@^1.1.1, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npm.taobao.org/decode-uri-component/download/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 deep-equal@^1.0.1:
   version "1.1.1"
@@ -8302,6 +8302,17 @@ vue-loader@^15.8.3:
   version "15.9.0"
   resolved "https://registry.npm.taobao.org/vue-loader/download/vue-loader-15.9.0.tgz?cache=0&sync_timestamp=1581493732642&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-loader%2Fdownload%2Fvue-loader-15.9.0.tgz#5d4b0378a4606188fc83e587ed23c94bc3a10998"
   integrity sha1-XUsDeKRgYYj8g+WH7SPJS8OhCZg=
+  dependencies:
+    "@vue/component-compiler-utils" "^3.1.0"
+    hash-sum "^1.0.2"
+    loader-utils "^1.1.0"
+    vue-hot-reload-api "^2.3.0"
+    vue-style-loader "^4.1.0"
+
+vue-loader@^15.9.0:
+  version "15.10.1"
+  resolved "https://registry.yarnpkg.com/vue-loader/-/vue-loader-15.10.1.tgz#c451c4cd05a911aae7b5dbbbc09fb913fb3cca18"
+  integrity sha512-SaPHK1A01VrNthlix6h1hq4uJu7S/z0kdLUb6klubo738NeQoLbS6V9/d8Pv19tU0XdQKju3D1HSKuI8wJ5wMA==
   dependencies:
     "@vue/component-compiler-utils" "^3.1.0"
     hash-sum "^1.0.2"
